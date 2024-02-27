@@ -8,6 +8,7 @@
         "ext-ctype": "*",
         "ext-iconv": "*",
         "nelmio/api-doc-bundle": "^4.20",
+        "predis/predis": "^2.2",
         "scheb/2fa-bundle": "^7.2",
         "sonata-project/admin-bundle": "^4.29",
         "symfony/console": "6.4.*",
