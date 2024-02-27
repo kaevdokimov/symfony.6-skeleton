@@ -1,3 +1,5 @@
+[![Symfony](https://github.com/kaevdokimov/symfony6-skeleton/actions/workflows/symfony.yml/badge.svg?branch=main)](https://github.com/kaevdokimov/symfony6-skeleton/actions/workflows/symfony.yml)
+
 Symfony 6.4 Skeleton with
 
 1. PHP >= 8.2
