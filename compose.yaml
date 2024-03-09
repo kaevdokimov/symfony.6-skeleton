@@ -55,7 +55,7 @@ services:
     image: rabbitmq:3.13-management-alpine
     hostname: rabbitmq
     restart: always
-    container_name: sa-rabbitmq
+    container_name: ss-rabbitmq
     environment:
       RABBITMQ_DEFAULT_USER: ${RABBITMQ_DEFAULT_USER:-app}
       RABBITMQ_DEFAULT_PASS: ${RABBITMQ_DEFAULT_PASS:-app-pwd}
