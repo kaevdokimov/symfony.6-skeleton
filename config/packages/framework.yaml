@@ -12,7 +12,6 @@ framework:
     handler_id: Symfony\Component\HttpFoundation\Session\Storage\Handler\RedisSessionHandler
     cookie_secure: auto
     cookie_samesite: lax
-    storage_factory_id: Symfony\Component\HttpFoundation\Session\Storage\Handler\RedisSessionHandler
 
   #esi: true
   #fragments: true
