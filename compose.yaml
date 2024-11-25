@@ -1,8 +1,6 @@
-version: '3'
-
 services:
   nginx:
-    image: nginx:mainline-alpine3.18-slim
+    image: nginx:mainline-alpine3.20-slim
     container_name: ss-nginx
     ports:
       - "8080:80"
@@ -37,7 +35,7 @@ services:
 ###< symfony/mailer ###
   ###> doctrine/doctrine-bundle ###
   database:
-    image: postgres:${POSTGRES_VERSION:-16}-alpine3.18
+    image: postgres:${POSTGRES_VERSION:-16}-alpine3.20
     container_name: ss-db
     environment:
       POSTGRES_DB: ${POSTGRES_DB:-app}
@@ -69,7 +67,7 @@ services:
 #      - ./var/rabbitmq/log/:/var/log/rabbitmq
 
   redis:
-    image: redis:7.2.4-alpine
+    image: redis:7.4.1-alpine3.20
     container_name: ss-redis
     restart: always
     ports:
